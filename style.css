@@ -1,0 +1,38 @@
+header {
+  background-color: #0B1C51;
+}
+
+header h1 {
+  font-size: 52px;
+  color: white;
+  text-align: center;
+  padding-top:30px;
+}
+
+header nav {
+  display: flex;
+  justify-content:center;
+}
+
+
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  header h1 {
+    font-size: 42px;
+    margin: 14px 0;
+    padding-top: 10px;
+  }
+
+  header nav {
+    margin-top: 10px;
+  }
+
+  header nav ul li a:hover {
+    color: #bdbdbd;
+  }
+}
